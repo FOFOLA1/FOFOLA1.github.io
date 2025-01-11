@@ -21,8 +21,6 @@
     }
 
 
-
-
 nav ul li a div {
     @apply
         w-[130px]
@@ -61,7 +59,7 @@ nav ul li a img {
 .bg-text {
     @apply
         text-white
-        opacity-15
+        opacity-0
         text-nowrap
         absolute
         duration-100
@@ -71,7 +69,7 @@ nav ul li a img {
 
 @keyframes pulsing {
     0% {
-        @apply opacity-15;
+        @apply opacity-0;
     }
     100% {
         @apply opacity-15;

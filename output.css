@@ -924,14 +924,14 @@ nav ul li a img {
   font-weight: 300;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-  opacity: 0.15;
+  opacity: 0;
   transition-duration: 100ms;
   animation: pulsing 5s infinite ease-in-out alternate;
 }
 
 @keyframes pulsing {
   0% {
-    opacity: 0.15;
+    opacity: 0;
   }
 
   100% {
