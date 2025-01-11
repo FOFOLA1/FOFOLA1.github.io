@@ -65,6 +65,7 @@ nav ul li a img {
         duration-100
         font-light;
     animation: pulsing 5s infinite ease-in-out alternate;
+    -webkit-animation: pulsing 5s infinite ease-in-out alternate;
 }
 
 @keyframes pulsing {

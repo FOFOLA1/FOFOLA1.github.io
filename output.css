@@ -927,6 +927,7 @@ nav ul li a img {
   opacity: 0;
   transition-duration: 100ms;
   animation: pulsing 5s infinite ease-in-out alternate;
+  -webkit-animation: pulsing 5s infinite ease-in-out alternate;
 }
 
 @keyframes pulsing {
