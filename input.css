@@ -123,3 +123,66 @@
         flex
         w-[100%];
 }
+
+
+
+#contacts {
+    @apply 
+        flex
+        flex-col
+        md:flex-row
+        xl:flex-row
+        justify-center
+        flex-wrap
+        align-middle
+        items-center
+        gap-5
+        mx-5;
+}
+
+#contacts a {
+    @apply
+        bg-bg1
+        flex
+        justify-between
+        align-middle
+        border-white
+        border-2
+        rounded-full
+        w-fit
+        transition-all
+        duration-100;
+}
+
+#contacts a span {
+    @apply
+        text-xl
+        md:text-2xl
+        xl:text-2xl
+        align-bottom
+        pl-5
+        mr-7
+        my-[10px]
+        xl:my-[22px]
+        md:my-[22px];
+}
+
+#contacts a:hover {
+    @apply
+        scale-[105%];
+}
+
+#contacts a:hover span {
+    @apply
+        underline;
+}
+
+#contacts a img {
+    @apply
+        h-[50px] w-auto
+        md:h-[70px]
+        xl:h-[70px]
+        pl-3
+        py-1;
+
+}
