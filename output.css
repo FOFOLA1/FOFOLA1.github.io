@@ -619,10 +619,6 @@ video {
   margin-right: 1.25rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -711,6 +707,10 @@ video {
   height: 75px;
 }
 
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -771,6 +771,10 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-5 {
@@ -896,6 +900,18 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pl-\[15px\] {
@@ -1230,12 +1246,12 @@ video {
 }
 
 #contacts a span {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 1.75rem;
-  padding-left: 1.25rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 1.25rem;
+  padding-left: 0.75rem;
   vertical-align: bottom;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1243,6 +1259,8 @@ video {
   #contacts a span {
     margin-top: 22px;
     margin-bottom: 22px;
+    margin-right: 1.75rem;
+    padding-left: 1.25rem;
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -1252,6 +1270,8 @@ video {
   #contacts a span {
     margin-top: 22px;
     margin-bottom: 22px;
+    margin-right: 1.75rem;
+    padding-left: 1.25rem;
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -1268,16 +1288,16 @@ video {
 }
 
 #contacts a img {
-  height: 50px;
+  height: 40px;
   width: auto;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.75rem;
 }
 
 @media (min-width: 768px) {
   #contacts a img {
     height: 70px;
+    padding-top: 0.5rem;
   }
 }
 
@@ -1426,6 +1446,18 @@ video {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .md\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .md\:pl-6 {
+    padding-left: 1.5rem;
   }
 
   .md\:pt-0 {
@@ -1608,6 +1640,18 @@ video {
   .xl\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .xl\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
+  .xl\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .xl\:pl-6 {
+    padding-left: 1.5rem;
   }
 
   .xl\:pl-\[10px\] {

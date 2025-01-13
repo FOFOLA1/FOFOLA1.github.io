@@ -156,13 +156,17 @@
 
 #contacts a span {
     @apply
-        text-xl
+        text-lg
         md:text-2xl
         xl:text-2xl
         align-bottom
-        pl-5
-        mr-7
-        my-[10px]
+        pl-3
+        md:pl-5
+        xl:pl-5
+        mr-5
+        md:mr-7
+        xl:mr-7
+        my-[5px]
         xl:my-[22px]
         md:my-[22px];
 }
@@ -179,10 +183,10 @@
 
 #contacts a img {
     @apply
-        h-[50px] w-auto
+        h-[40px] w-auto
         md:h-[70px]
         xl:h-[70px]
-        pl-3
-        py-1;
+        py-1
+        md:pt-2;
 
 }
