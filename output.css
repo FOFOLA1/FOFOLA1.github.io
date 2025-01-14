@@ -606,8 +606,8 @@ video {
   right: 2.5rem;
 }
 
-.right-5 {
-  right: 1.25rem;
+.right-3 {
+  right: 0.75rem;
 }
 
 .top-10 {
@@ -620,6 +620,14 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .col-span-1 {
@@ -669,12 +677,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.ml-0 {
+  margin-left: 0px;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .ml-7 {
@@ -721,28 +729,8 @@ video {
   margin-top: 20px;
 }
 
-.-mt-5 {
-  margin-top: -1.25rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-0 {
-  margin-left: 0px;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -952,6 +940,10 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1003,6 +995,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
@@ -1023,13 +1020,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
 }
 
-.bg-opacity-30 {
-  --tw-bg-opacity: 0.3;
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
 }
 
 .bg-gradient-to-b {
@@ -1831,6 +1827,10 @@ video {
     grid-column-start: 7;
   }
 
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1845,10 +1845,6 @@ video {
 
   .md\:mt-\[15px\] {
     margin-top: 15px;
-  }
-
-  .md\:ml-4 {
-    margin-left: 1rem;
   }
 
   .md\:flex {
@@ -2057,6 +2053,10 @@ video {
     grid-column-start: 8;
   }
 
+  .xl\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
   }
@@ -2071,14 +2071,6 @@ video {
 
   .xl\:mt-\[15px\] {
     margin-top: 15px;
-  }
-
-  .xl\:ml-3 {
-    margin-left: 0.75rem;
-  }
-
-  .xl\:ml-4 {
-    margin-left: 1rem;
   }
 
   .xl\:flex {
