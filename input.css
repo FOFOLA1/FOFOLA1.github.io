@@ -134,8 +134,8 @@
         xl:flex-row
         justify-center
         flex-wrap
+        items-start
         align-middle
-        items-center
         gap-5
         mx-5;
 }

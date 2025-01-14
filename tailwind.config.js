@@ -6,6 +6,8 @@ module.exports = {
       colors: {
         "bg1": "#0B022D",
         "bg2": "#200094",
+        "bg3": "#000240",
+        "bg4": "#280088",
         "purp": "#9f62f0"
       },
       fontFamily: {
