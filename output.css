@@ -1600,7 +1600,7 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
-  background-color: rgb(11 2 45 / var(--tw-bg-opacity, 1));
+  background-color: rgb(0 2 64 / var(--tw-bg-opacity, 1));
   vertical-align: middle;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
