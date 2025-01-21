@@ -838,6 +838,10 @@ video {
   min-height: 100vh;
 }
 
+.min-h-\[100\%\] {
+  min-height: 100%;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -928,6 +932,10 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-5 {
