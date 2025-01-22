@@ -839,6 +839,28 @@ video {
   height: fit-content;
 }
 
+.h-min {
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-\[300\] {
+  height: 300;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -889,6 +911,10 @@ video {
 
 .grid-flow-row {
   grid-auto-flow: row;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
 
 .auto-rows-auto {
