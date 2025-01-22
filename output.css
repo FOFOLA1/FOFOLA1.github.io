@@ -753,10 +753,6 @@ video {
   display: flex;
 }
 
-.table {
-  display: table;
-}
-
 .table-cell {
   display: table-cell;
 }
@@ -836,10 +832,6 @@ video {
 
 .min-h-\[100vh\] {
   min-height: 100vh;
-}
-
-.min-h-\[100\%\] {
-  min-height: 100%;
 }
 
 .w-\[100\%\] {
@@ -932,10 +924,6 @@ video {
 
 .justify-around {
   justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
 }
 
 .gap-5 {
@@ -1227,8 +1215,8 @@ video {
   padding-left: 5px;
 }
 
-.pr-5 {
-  padding-right: 1.25rem;
+.pr-7 {
+  padding-right: 1.75rem;
 }
 
 .pr-\[15px\] {
@@ -1249,10 +1237,6 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
-}
-
-.pr-7 {
-  padding-right: 1.75rem;
 }
 
 .text-center {
