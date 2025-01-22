@@ -151,7 +151,7 @@
         rounded-full
         w-fit
         transition-all
-        duration-100;
+        duration-150;
 }
 
 #contacts a span {
@@ -173,7 +173,7 @@
 
 #contacts a:hover {
     @apply
-        scale-[105%];
+        scale-[101%];
 }
 
 #contacts a:hover span {
