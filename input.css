@@ -150,8 +150,12 @@
         border-2
         rounded-full
         w-fit
+        font-semibold
         transition-all
-        duration-150;
+        hover:scale-[103%]
+        hover:bg-bg4
+        translate-y-2
+        duration-100;
 }
 
 #contacts a span {
@@ -169,16 +173,6 @@
         my-[5px]
         xl:my-[22px]
         md:my-[22px];
-}
-
-#contacts a:hover {
-    @apply
-        scale-[101%];
-}
-
-#contacts a:hover span {
-    @apply
-        underline;
 }
 
 #contacts a img {
