@@ -1988,6 +1988,10 @@ video {
     flex-wrap: nowrap;
   }
 
+  .md\:text-nowrap {
+    text-wrap: nowrap;
+  }
+
   .md\:border-b {
     border-bottom-width: 1px;
   }
@@ -2023,6 +2027,10 @@ video {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-2xl {
@@ -2242,6 +2250,10 @@ video {
 
   .xl\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .xl\:text-nowrap {
+    text-wrap: nowrap;
   }
 
   .xl\:border-b {
