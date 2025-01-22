@@ -798,10 +798,6 @@ video {
   height: 2px;
 }
 
-.h-\[30\%\] {
-  height: 30%;
-}
-
 .h-\[300px\] {
   height: 300px;
 }
@@ -822,10 +818,6 @@ video {
   height: 70px;
 }
 
-.h-\[75\%\] {
-  height: 75%;
-}
-
 .h-\[75px\] {
   height: 75px;
 }
@@ -842,23 +834,6 @@ video {
 .h-min {
   height: -moz-min-content;
   height: min-content;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.h-\[300\] {
-  height: 300;
 }
 
 .min-h-\[100vh\] {
@@ -911,10 +886,6 @@ video {
 
 .grid-flow-row {
   grid-auto-flow: row;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
 }
 
 .auto-rows-auto {
@@ -1862,40 +1833,6 @@ video {
 .disabled\:checked\:bg-gray-100:checked:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
-}
-
-.group:hover .group-hover\:scale-\[\] {
-  --tw-scale-x: ;
-  --tw-scale-y: ;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-\[101\] {
-  --tw-scale-x: 101;
-  --tw-scale-y: 101;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-\[101\%\] {
-  --tw-scale-x: 101%;
-  --tw-scale-y: 101%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-\[110\%\] {
-  --tw-scale-x: 110%;
-  --tw-scale-y: 110%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-\[210\%\] {
-  --tw-scale-x: 210%;
-  --tw-scale-y: 210%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:font-bold {
-  font-weight: 700;
 }
 
 .group:hover .group-hover\:underline {
