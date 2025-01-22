@@ -713,6 +713,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-\[-10px\] {
   margin-top: -10px;
 }
@@ -830,6 +834,11 @@ video {
   height: auto;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -848,6 +857,15 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.min-w-\[300px\] {
+  min-width: 300px;
 }
 
 .shrink {
@@ -912,6 +930,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1111,6 +1133,10 @@ video {
      object-position: top;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -1183,6 +1209,16 @@ video {
   padding-bottom: 20px;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1249,6 +1285,10 @@ video {
 
 .text-start {
   text-align: start;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .align-middle {
@@ -1888,6 +1928,10 @@ video {
     margin-left: 1rem;
   }
 
+  .md\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1924,6 +1968,10 @@ video {
     width: 130px;
   }
 
+  .md\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
   .md\:max-w-\[50\%\] {
     max-width: 50%;
   }
@@ -1938,6 +1986,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .md\:border-b {
@@ -2026,6 +2078,11 @@ video {
 
   .md\:text-\[80px\] {
     font-size: 80px;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:text-xl {
@@ -2118,6 +2175,10 @@ video {
     margin-left: 1rem;
   }
 
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
   }
@@ -2154,6 +2215,10 @@ video {
     width: 130px;
   }
 
+  .xl\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
   .xl\:max-w-\[50\%\] {
     max-width: 50%;
   }
@@ -2168,6 +2233,10 @@ video {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .xl\:border-b {
@@ -2277,6 +2346,11 @@ video {
 
   .xl\:text-\[70px\] {
     font-size: 70px;
+  }
+
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .xl\:text-xl {
