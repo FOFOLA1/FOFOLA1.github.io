@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../output.css">
+    <script src="./../../script.js"></script>
     <title>Projects - Filip Řeháček</title>
 
-    <link rel="icon" href="./img/fofola_small.png" type="image">
+    <link rel="icon" href="./../../img/fofola_small.png" type="image">
 
-    <meta property="og:title" content="Filip Řeháček (FOFOLA_1)" />
-    <meta property="og:description" content="Backend and Software developer" />
-    <meta name="twitter:title" content="Filip Řeháček (FOFOLA_1)" />
-    <meta name="twitter:description" content="Backend and Software developer" />
+    <meta content="Filip Řeháček (FOFOLA_1)" property="og:title" data-next-head=""/>
+    <meta content="Backend and Software developer" property="og:description" data-next-head=""/>
+    <meta content="Backend and Software developer" name="description" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/" property="og:url" data-next-head=""/>-->
+    <meta content="website" property="og:type" data-next-head=""/>
+
+    <meta content="Filip Řeháček (FOFOLA_1)" property="og:title" data-next-head=""/>
+    <meta content="Backend and Software developer" property="og:description" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/images/favicon.png" property="og:image" data-next-head=""/>-->
+    <meta content="summary" name="twitter:card" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/" property="twitter:url" data-next-head=""/>-->
+
+    <meta content="Filip Řeháček (FOFOLA_1)" name="twitter:title" data-next-head=""/>
+    <meta content="Backend and Software developer" name="twitter:description" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/images/favicon.png" name="twitter:image" data-next-head=""/>-->
 
 </head>
 <body class="font-kode bg-gradient-to-br from-bg1 to-bg2 text-white min-h-[100vh] flex flex-col justify-between">
@@ -40,18 +52,30 @@
 
     
     <main class="px-[calc(100%/2-730px)] mx-5 mt-10">
-        <h2 class="xl:text-4xl text-3xl font-bold">Art of Code [ALPHA 0.1.0]<span class="text-lg"> - Rainmeter skin</span></h2>
+        <h2 class="xl:text-4xl text-3xl font-bold">Art of Code [ALPHA 0.2.0]<span class="text-lg"> - Rainmeter skin</span></h2>
         <div class="flex flex-row justify-between align-top md:flex-nowrap xl:flex-nowrap flex-wrap">
-            
             <div>
-                <p class="p-3 text-wrap text-sm md:text-base xl:text-base italic">Rainmeter is a free, open-source tool for creating visualizations and dashboards.</p>
-                <p class="p-3 text-wrap text-lg">I created a Rainmeter skin for displaying component usage or time in nice looking coding style. Now it can display <u>current time, search input powered by Brave, CPU and RAM usage, and battery percentage</u>.</p>
-                <p class="p-3 text-wrap text-lg">It's still in development and I plan to add color settings, change search engine, another widgets like music control, disk usage.</p>
-                <p class="p-3 text-wrap text-lg">For design I was inspired by <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3025013651" target="_blank" class="hover:underline">wallpaper created by Probler</a>.</p>
+                <div>
+                    <p class="p-3 text-wrap text-sm md:text-base xl:text-base italic">Rainmeter is a free, open-source tool for creating visualizations and dashboards.</p>
+                    <p class="p-3 text-wrap text-lg">I created a Rainmeter skin for displaying component usage, time and more in nice looking coding style.</p>
+                    <p class="p-3 text-wrap text-lg">It's still in development and I plan to add color settings, option to change search engine, another widgets like music control, disk usage.</p>
+                    <p class="p-3 text-wrap text-lg">For design I was inspired by <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3025013651" target="_blank" class="hover:underline">wallpaper created by Probler</a>.</p>
+                </div>
+                <div class="pt-8">
+                    <h3 class="xl:3xl text-2xl pb-2"><b>Widgets currently available</b></h3>
+                    <ul class="text-lg list-disc ml-10">
+                        <li><b>Clock</b> - displays time with date</li>
+                        <li><b>System usage</b> - shows CPU, GPU and RAM usage with battery percentage</li>
+                        <li><b>Music player</b> - displays info about currently playing song, you can also pause/play, song and go to the previous or next song</li>
+                        <li><b>Search bar</b> - allows you to search through the internet from your desktop, powered by Brave search engine</li>
+                    </ul>
+                </div>
             </div>
             <img src="./../../img/art_of_code.png" alt="Art of Code wach" class="rounded-2xl md:ml-5 xl:ml-5 mt-5 ml-0 w-full md:max-w-[30%] xl:max-w-[30%] min-w-[300px] h-fit">
         </div>
-        <div class="py-10 flex flex-wrap gap-3 justify-between text-sm md:text-lg xl:text-lg font-semibold">
+        
+        
+        <div class="pb-10 pt-14 flex flex-wrap gap-3 justify-between text-sm md:text-lg xl:text-lg font-semibold">
             <a href="./../" class="group">&lt;- <span class="group-hover:underline">Back</span></a>
             <a href="https://github.com/FOFOLA1/Art-of-Code_Rainmeter-Skin" target="_blank" class="group text-right"><span class="group-hover:underline">Find out more in Github repository</span> -&gt;</a>
         </div>
@@ -70,7 +94,7 @@
                     <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="Discord" src="./../../img/discord.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a target="_blank" href="https://discordapp.com/users/1308882465821298861">Discord</a></li>
                     <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="Instagram" src="./../../img/instagram.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a target="_blank" href="https://www.instagram.com/fl0x1c3k_?utm_source=qr">Instagram</a></li>
                     <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="Github" src="./../../img/github.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a target="_blank" href="https://github.com/FOFOLA1">Github</a></li>
-                    <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="E-mail" src="./../../img/mail.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a href="./../../message/">E-mail</a></li>
+                    <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1 cursor-pointer"><img alt="E-mail" src="./../../img/mail.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a onclick="copy();event.preventDefault();">E-mail</a></li>
                 </ul>
             </div>
             <div class="pt-10">
@@ -89,22 +113,5 @@
         
 
     </footer>
-    <script>
-        window.onload = function() {
-
-            var pageTitle = document.title;
-            var attentionMessage = 'Miss you ❤';
-          
-            document.addEventListener('visibilitychange', function(e) {
-              var isPageActive = !document.hidden;
-          
-              if(!isPageActive){
-                document.title = attentionMessage;
-              }else {
-                document.title = pageTitle;
-              }
-            });
-          };
-    </script>
 </body>
 </html>

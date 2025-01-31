@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../output.css">
+    <script src="./../script.js"></script>
     <title>Contact - Filip Řeháček</title>
 
-    <link rel="icon" href="./img/fofola_small.png" type="image">
+    <link rel="icon" href="./../img/fofola_small.png" type="image">
 
-    <meta property="og:title" content="Filip Řeháček (FOFOLA_1)" />
-    <meta property="og:description" content="Backend and Software developer" />
-    <meta name="twitter:title" content="Filip Řeháček (FOFOLA_1)" />
-    <meta name="twitter:description" content="Backend and Software developer" />
+    <meta content="Filip Řeháček (FOFOLA_1)" property="og:title" data-next-head=""/>
+    <meta content="Backend and Software developer" property="og:description" data-next-head=""/>
+    <meta content="Backend and Software developer" name="description" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/" property="og:url" data-next-head=""/>-->
+    <meta content="website" property="og:type" data-next-head=""/>
+
+    <meta content="Filip Řeháček (FOFOLA_1)" property="og:title" data-next-head=""/>
+    <meta content="Backend and Software developer" property="og:description" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/images/favicon.png" property="og:image" data-next-head=""/>-->
+    <meta content="summary" name="twitter:card" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/" property="twitter:url" data-next-head=""/>-->
+
+    <meta content="Filip Řeháček (FOFOLA_1)" name="twitter:title" data-next-head=""/>
+    <meta content="Backend and Software developer" name="twitter:description" data-next-head=""/>
+    <!--<meta content="https://mp3martin.xyz/images/favicon.png" name="twitter:image" data-next-head=""/>-->
 
 </head>
 <body class="font-kode bg-gradient-to-br from-bg1 to-bg2 text-white min-h-[100vh] flex flex-col justify-between">
@@ -64,7 +76,7 @@
                 <span>@fl0x1c3k_</span>
 
             </a>
-            <a href="./../message">
+            <a onclick="copy();event.preventDefault();" class="cursor-pointer">
                 <img src="./../img/mail.png" alt="E-mail" class="pl-4 md:pl-6 xl:pl-6">
                 <span>filip.rehacek@outlook.cz</span>
             </a>
@@ -73,8 +85,6 @@
                 <span>@FOFOLA_1</span>
             </a>
         </div>
-
-
 
 
     </main>
@@ -92,7 +102,7 @@
                     <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="Discord" src="./../img/discord.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a target="_blank" href="https://discordapp.com/users/1308882465821298861">Discord</a></li>
                     <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="Instagram" src="./../img/instagram.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a target="_blank" href="https://www.instagram.com/fl0x1c3k_?utm_source=qr">Instagram</a></li>
                     <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="Github" src="./../img/github.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a target="_blank" href="https://github.com/FOFOLA1">Github</a></li>
-                    <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1"><img alt="E-mail" src="./../img/mail.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a href="./../message/">E-mail</a></li>
+                    <li class="text-xl px-2 md:text-2xl xl:text-2xl hover:underline py-1 cursor-pointer"><img alt="E-mail" src="./../img/mail.png" class="h-[25px] md:text-[29px] xl:text-[29px] w-auto inline-block pb-1 pr-[15px]"><a onclick="copy();event.preventDefault();">E-mail</a></li>
                 </ul>
             </div>
             <div class="pt-10">
@@ -111,26 +121,5 @@
         
 
     </footer>
-
-
-
-
-    <script>
-        window.onload = function() {
-
-            var pageTitle = document.title;
-            var attentionMessage = 'Miss you ❤';
-
-            document.addEventListener('visibilitychange', function(e) {
-                var isPageActive = !document.hidden;
-                
-                if(!isPageActive){
-                    document.title = attentionMessage;
-                }else {
-                    document.title = pageTitle;
-                }
-            });
-        };
-    </script>
 </body>
 </html>
