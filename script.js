@@ -17,7 +17,7 @@ window.onload = function() {
 
 function copy() {
     navigator.clipboard.writeText("filip.rehacek@outlook.cz").then(() => {
-        alert('Content copied to clipboard');
+        alert('E-mail address copied to clipboard');
     }, () => {
         console.error('Failed to copy');
     });

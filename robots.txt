@@ -1,5 +1,5 @@
 # robots.txt for https://fofola1.github.io/
-# Last updated: 2025-08-13
+# Last updated: 2025-10-10
 # For more info: https://www.robotstxt.org/
 
 User-agent: *
@@ -11,4 +11,4 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap location
-Sitemap: https://fofola1.github.io/sitemap.xml
+Sitemap: https://rehacek.tech/sitemap.xml

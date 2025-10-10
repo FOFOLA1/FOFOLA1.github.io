@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build -i input.css -o output.css",
-    "watch": "tailwindcss build -i input.css -o output.css --watch"
+    "build": "npx @tailwindcss/cli -i input.css -o output.css",
+    "watch": "npx @tailwindcss/cli -i input.css -o output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
     "url": "https://github.com/FOFOLA1/FOFOLA1.github.io/issues"
   },
   "homepage": "https://github.com/FOFOLA1/FOFOLA1.github.io#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.4.17"
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
   }
 }

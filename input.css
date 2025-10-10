@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @font-face {
     font-family: 'Kode Mono';
@@ -20,6 +18,20 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
 
+@theme {
+    --color-bg1: #0B022D;
+    --color-bg2: #200094;
+    --color-bg3: #000240;
+    --color-bg4: #280088;
+    --color-purp: #9f62f0;
+    /* Tailwind v4 generates font-kode utility from --font-kode */
+    --font-kode: "Kode Mono", monospace;
+    --screen-md: 768px;
+    --screen-xl: 1280px;
+}
+
+
+
 .bg-text {
     @apply
         text-white
@@ -34,10 +46,10 @@
 
 @keyframes pulsing {
     0% {
-        @apply opacity-0;
+        opacity: 0;
     }
     100% {
-        @apply opacity-15;
+        opacity: 0.15;
     }
 }
 
